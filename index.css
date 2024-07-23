@@ -1,0 +1,75 @@
+body {
+    background-color: #bbfdffc6;
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #000000;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    color: #31b5b7;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #38d9dc;
+    font-family: "Titillium Web", sans-serif;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45A049;
+}
+
+p {
+    color: #212121;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+#line {
+    opacity: 0.3;
+    border: solid 1.5px;
+    width: 495px;
+    border-radius: 5px;
+}
+
+.p-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 495px;
+}
+
+
+#pword1, #pword2 {
+    font-size: 1.2em ;
+    height: 30px;
+    width: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #201E43;
+    color: #49c61f;
+    border-radius: 8px;
+    text-align: center;
+}
