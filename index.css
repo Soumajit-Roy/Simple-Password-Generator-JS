@@ -21,7 +21,7 @@ h3 {
     font-size: 1.5em;
 }
 
-button {
+#genbtn {
     background-color: #38d9dc;
     font-family: "Titillium Web", sans-serif;
     color: #FFFFFF;
@@ -33,8 +33,13 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
+#genbtn:hover {
     background-color: #45A049;
+}
+
+#genbtn:active {
+    position: relative;
+    top: 2px;
 }
 
 p {
@@ -72,4 +77,37 @@ p {
     color: #49c61f;
     border-radius: 8px;
     text-align: center;
+}
+
+.copyico {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 495px;
+}
+
+.copybtn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #38d9dc;
+    border-radius: 8px;
+}
+
+.copybtn:active{
+    position: relative;
+    top: 2px;
+}
+
+.copybtn:hover {
+    background-color: #45A049;
+}
+
+#fbtn {
+    margin-right: 65px;
 }

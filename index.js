@@ -103,10 +103,23 @@ function randomNum() {
 
 //main generating function
 function generatePword() {
+  pwordEl1.textContent = ""
+  pwordEl2.textContent = ""
   for (let i = 1; i < 16; i += 1) {
     pwordEl1.textContent += characters[randomNum()];
   }
   for (let i = 1; i < 16; i += 1) {
     pwordEl2.textContent += characters[randomNum()];
   }
+}
+
+//copy to clipboard function with alert
+
+const ctcf = () => {
+  navigator.clipboard.writeText(pwordEl1.textContent);
+  alert("Password Copied to Clipboard");
+}
+const ctcs = () => {
+  navigator.clipboard.writeText(pwordEl2.textContent);
+  alert("Password Copied to Clipboard");
 }

@@ -19,11 +19,15 @@
     <i class="fa-solid fa-user-shield fa-2xl"></i>
     <h1>Secure Your Online Presence</h1>
     <h3>Generate Strong, Unique Passwords Effortlessly</h3>
-    <button onclick="generatePword()">Generate</button>
+    <button id="genbtn" onclick="generatePword()">Generate</button>
     <div id="line"></div>
     <div class="p-container">
-    <p id="pword1"></p>
-    <p id="pword2"></p>
+    <p id="pword1" ></p>
+    <p id="pword2" ></p>
+    </div>
+    <div class="copyico">
+    <button class="copybtn" id="fbtn" onclick="ctcf()"><i class="fa-solid fa-copy fa-xl"></i></button>
+    <button class="copybtn" id="sbtn" onclick="ctcs()"><i class="fa-solid fa-copy fa-xl"></i></button>
     </div>
 
     <script src="index.js"></script>
